@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+ 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Payment Methods</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/payement.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+        <script src="js/script.js"></script><script src="js/jquery-3.4.1.js"></script>   
+        <script src="js/jquery-3.4.1.min.js"></script> 
+        <script src = 'js/plugin.js'></script>
+    </head>
+    <body>
+      <div class="container">
+          <h1>Payment Methods</h1>
+          <div class="input-group-text"  >
+                <input type="radio" id="radio1"> <lable name= "meeting_point">  Vodafon Cash</lable> <img src="imges/vodafone.png" id='img1'/> <br/>
+              </div>
+              <div class="voda">
+              <input type="text"  class="input-group-text" id = "input" placeholder="Product_id" name = "item_id"/>
+              <input type="text"  class="input-group-text" id = "input" placeholder="Enter your name" name = "cst_name"/>
+              <input type="tel"  class="input-group-text" id = "input" placeholder="Enter your phone" name = "cst_phone"/>
+              <input type="email"  class="input-group-text" id = "input" placeholder="Enter your mail" name = "cst_email"/>
+              <input type="text"  class="input-group-text" id = "input" placeholder="Enter your address" name = "cst_address"/>
+              <input type="date"  class="input-group-text" id = "input" placeholder="required date " name = "date"/>
+              <input type="time"  class="input-group-text" id = "input" placeholder="required time" name = "time"/>
+               <input type="submit" class="btn btn-success" id="sub1"value="pay now"/>
+            </div>
+              <div class="input-group-text" style="margin-top: 20px;">
+                    <input type="radio" id="radio2"/>   <lable name= "meeting_point">  Credit Card</lable>
+                   <div class="images">
+                    <img src="imges/jbc.PNG" id='img2'/>
+                    <img src="imges/visa.PNG" id='img2'/>
+                    <img src="imges/Master.PNG" id='img2'/>
+                   </div>
+                
+              </div>
+              <div class="card">
+                     <img src="imges/cards.png" id="card_img">
+                    <div class='data'>
+                            <input type="text"  class="input-group-text" id = "input2" placeholder="Product_id" name = "item_id"/>
+                            <input type="text"  class="input-group-text" id = "input2" placeholder="Enter your name" name = "cst_name"/>
+                            <input type="tel"  class="input-group-text" id = "input2" placeholder="Enter your phone" name = "cst_phone"/>
+                            <input type="email"  class="input-group-text" id = "input2" placeholder="Enter your mail" name = "cst_email"/>
+                            <input type="text"  class="input-group-text" id = "input2" placeholder="Enter your address" name = "cst_address"/>
+                            <input type="number"  class="input-group-text" id = "input2" placeholder=" Card Number" name = "card_number"/>
+                            <input type="date"  class="input-group-text" id = "input2" placeholder="required date " name = "date"/>
+                            <input type="time"  class="input-group-text" id = "input2" placeholder="required time" name = "time"/>
+                            <input type="submit" class="btn btn-success" id="sub2" value="pay now"/>
+
+                        </div>
+            </div>
+            <div class="input-group-text"  >
+                    <input type="radio" id="radio3"> <lable name= "meeting_point">  Pay Pall</lable> <img src="imges/paypall.PNG" id='img3'/> <br/>
+                  </div>
+                  <div class="pay">
+                      <h3>   have a Paypall account ?</h3>
+                      <p>login to your account to pay </p>
+                      Email : <input type="email"  class="input-group-text" id = "input2" placeholder="Email or Mobile phone number " name = "cst_email"/>
+                      password : <input type="password"  class="input-group-text" id = "input2" placeholder="************" name = "cst_pass"/>
+                      <input type="submit" class="btn btn-success" id="sub3" value="pay now"/><br/>
+                    <a href ="https://www.paypal.com/authflow/password-recovery/?country.x=US&locale.x=en_US&redirectUri=%252Fsignin%252F">forgt your email name or password </a>
+                    <div class="space1"></div>
+                    <a href="https://www.paypal.com/us/webapps/mpp/account-selection"> create a PayPall account </a>
+                  <p>and pay with your debit or credit card</p>
+                  </div>
+                  <div class="space"></div>
+      </div> 
+    </body>
+</html>

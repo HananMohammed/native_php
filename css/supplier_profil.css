@@ -1,0 +1,278 @@
+body{
+    width:100%;
+    height: 100%;
+    background-color:rgb(251, 249, 253);
+    margin: 0%;
+  }
+  .main-div{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+  }
+  .header{
+    width: 100%;
+    height: 70px;
+    background-color:rgb(81, 53, 107);
+    color: white;
+     margin-bottom: 20px;
+   
+  }
+  .header .detail{
+    float: left;
+    width:40%;
+   }
+   .detail ul {
+    width: 100%;
+    height: 60px;
+    list-style-type: none;
+    float: right ;
+
+  }
+ .detail ul li{
+    float: left;
+    color: white;
+    text-decoration: none;
+     margin-left: 20px  
+  }
+  .detail ul li  p{
+    color:white;
+      }
+  .header .head{
+    float: right;
+    width: 60%;
+    margin-top: 10px;
+  }
+.head ul {
+    width: 100%;
+    height: 60px;
+    margin-left:30%;
+
+  }
+
+ .head ul li {
+    float:left;
+    list-style-type: none;
+    margin-left:2%; 
+    float: left ;
+  }
+  .head ul li a{
+    float:left;
+    color: white;
+    text-decoration: none;
+   }
+  
+  .head ul li a:hover {
+    background-color:white;
+    color: black;
+  }
+ .profil-img{
+    width:50px;
+    height:50px;
+    alt :"logo img";
+    border-radius: 50%;
+ }
+ .sms{
+  border-radius:50%;
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+ }
+ .logout_button{
+  text-align: center;
+  width: 70px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: aqua;
+  color: black;
+  border: 2px solid black;
+  box-shadow: 10px -10px 5px rgb(57, 56, 58);
+}
+
+.space{
+    width:100%;
+    height: 30px;
+  }
+
+  .main-section .bought h1{
+    width:20%;
+    color: rgb(54, 19, 87);
+    
+    background-color:   rgb(199, 185, 214);
+    box-shadow: 10px -10px 5px rgb(194, 183, 206);
+    border-radius:10px;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 6%;
+    margin-left: 5%;
+    padding: 10px;
+
+  }
+  .main-section .bought  {
+width :100%;
+  }
+  .main-section .bought ul{
+    list-style-type: none;
+    margin-left: 2%;
+   margin-top:10%;
+   float:right;
+   
+  }  
+ 
+.main-section .bought ul li{
+  text-decoration: none;
+  float:left;
+  margin-right: 30px;
+  padding-top: 7px;
+
+
+}
+
+.main-section .bought ul li{
+  float: right;
+  width:40%;
+  height: auto;
+}
+.main-section .bought ul li .item{
+  width: 80%;
+  height: auto;
+  margin-right: 5%;
+   
+}
+.main-section .bought ul li .item img{
+    width:100%;
+    height: 150px;
+     
+    alt:"product pic";
+    box-shadow: 10px -10px 5px rgb(194, 183, 206);
+
+  border-radius:15px;
+     
+       
+}
+
+.main-section  .bought ul li .item h4,p{
+  float: left;
+  color:  rgb(81, 53, 107);
+  width:100%;
+  font-style: italic;
+  }
+   
+  .btn_pay{
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 25%;
+    
+    background-color: rgb(54, 19, 87);
+    color: white;
+    border: 2px solid black;
+    box-shadow: 10px -10px 5px rgb(194, 183, 206);
+}
+
+  .main-section ul  p{
+  float: left;
+  color:  rgb(81, 53, 107);
+  font-style: italic;
+  }
+
+  
+.footer{
+    background-color: rgb(81, 53, 107);
+     text-align: center;
+     margin-top: 2500px;
+  }
+.footer p{
+    
+    color: white;
+    size: 120px;
+    font: italic bold;
+  }
+  .footer .social_div img{
+   width:30px;
+   height: 20px;
+   padding-left: 10 px;
+   
+  
+  } 
+  #drop{ display:none;}
+  #Demo{
+    margin-top: 10px;text-align:center;
+  }
+  @media only screen and (min-width:40px) and (max-width:1100px){
+   
+#drop {
+  width:40px ;height: 40px;  display:block;z-index: 2; float: right;margin-top: -20px;margin-right: -100%;
+}
+
+    .header .detail{
+       width:100%; float: right ;margin-bottom: -15px;
+
+      }
+      
+      #header{display: none;}
+      .detail ul {
+        width: 100%;
+        height: 60px;
+        list-style-type: none;    display:block;
+      }
+     .detail ul li{
+        float: left;
+        color: white;
+        text-decoration: none;
+       }
+      .detail ul li  p{
+        color:white;
+        font-size: 10px;
+          }
+
+        .header .head{
+           width:100%;
+           margin: 0 ;
+          }
+      .head ul {
+          width: 100%;
+          margin:0;
+         }
+      
+       .head ul li {
+         width:100%;
+        list-style-type: none;
+        background-color:rgb(81, 53, 107);
+        margin-left:-40px;
+        margin-bottom: 5PX;  
+
+        }
+        .head ul li a{
+          color: white;
+          text-decoration: none;      margin-left: 40%; 
+
+         }
+         .logout_button{
+          text-align: center;
+          width: 60px;
+          height: 25px;
+          border-radius: 10px;
+          background-color: rgb(87, 204, 204);
+          color: black;
+          border: 1px solid black; box-shadow: none;
+          margin-left: 40%;
+         }
+        
+         .main-section{
+           margin-top:250px; 
+         }
+         .main-section .bought h1{
+          width:80%;margin:0;margin-left: 10%;}
+          .main-section .bought ul li img{
+            float: right;
+            width:100%;
+            height: auto;margin:0;
+          }
+          
+         .footer{
+          background-color: rgb(81, 53, 107);
+           text-align: center;
+           margin-top:4000px;
+          }
+  }

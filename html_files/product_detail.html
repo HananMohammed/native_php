@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Product detail </title>
+    <link rel="stylesheet" text="html/css" href="css/product_style.css"/>
+    <script src="js/jquery-3.4.1.js"></script>  <script src="js/jquery-3.4.1.min.js"></script> 
+    <script src = 'js/plugin.js'></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src = 'js/script.js'></script>
+   </head>
+
+<body class="body">
+  <div class = " main-div" >
+    <!--start of header div logo & nav --> 
+  <div class = " header" >
+    
+    
+  
+    <img src ="imges\photo2.jpg" id="head"/>
+          
+         
+    <ul id="header">
+               <li> <a href ="index.html" > Home</a></li>
+               <li> <a href ="profil.html" > Profil </a></li>
+               <li> <a href ="product_detail.html" >product </a> </li>
+               <li> <a href ="login.html" >  login </a> </li>
+               <li> <a href ="sign_up.html" >  sign_up </a></li>
+               <li> <a href ="contact_us.html" >  contact_us </a></li>
+               <li id="Demo"></li>
+
+    </ul>
+   
+
+</div>
+<img src="imges/drop.PNG" id="drop"/>
+
+<!--end of header div   -->
+    <!-- div for space between others -->
+    <div class = "Space10"  ></div>
+    <!-- div for space between others -->
+    <script>
+  AOS.init();
+</script>
+     <!--  start for main section head -->
+    <div class = "main-section" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">  
+     <div id="product">
+               <p id="p1"> Product you are going to buy  Acessories " ring&throat " code number of product #12035</p>
+            <img src ="imges\photo4.png"  /> 
+            <p  > item price = 1200 Pound <br/> owner of product m7md Ahmed Store  </p>
+             <p > if you are going to buy Click here to choose the payement menthod </p>
+             <button class="btn btn-primary btn-lg btn-block" id= "btn_cart">   <img src="imges/cart.png"id="cart" /> ADD TO CART </button>
+                
+           </div>
+
+    <div id="review" data-aos="zoom-out-left">
+     <h5>   customers rating </h5>
+     <div class=rating data-aos="zoom-out-up">
+       <h3 style="color:orange;marin-top:5px;padding:10px;">3.5/5</h3>
+     <style>
+      
+.checked {
+  color: orange;
+}
+</style>
+     <span class="fa fa-star checked" ></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star cheched" ></span>
+<span class="fa fa-star"></span>
+<div class="container"> 
+5  <span class="fa fa-star checked"></span>  (5) 
+<br/>
+4  <span class="fa fa-star checked"></span>  (4) 
+<br/>
+3  <span class="fa fa-star checked"></span>  (3) 
+<br/>
+2 <span class="fa fa-star checked"></span>  (2) 
+<br/>
+1  <span class="fa fa-star checked"></span>  (1) 
+<br/>
+
+</div>
+     </div>
+   <h5>Add Review </h5>
+<span class="fa fa-star" id="check1"></span>
+<span class="fa fa-star"id="check2"></span>
+<span class="fa fa-star"id="check3"></span>
+<span class="fa fa-star"id="check4"></span>
+<span class="fa fa-star"id="check5"></span>
+<input type="email"  class="input-group-text form-control" id="inp"  placeholder="Enter user name" />
+<input type="password"  class="input-group-text form-control" id="inp"  placeholder="****************"  />
+<input type="text" class="form-control" placeholder="Product review " 
+style="text-align:center;height:120px;margin-top:10px"required >
+<input type="submit" class="btn btn-primary" id="inp_btn"  value="Submit"/>
+
+   </div>
+        <!-- end  of main  section part --> 
+    
+
+</div>
+    <div class="footer"> 
+    
+
+      <p> All right reserved to show inc 2019 </p>
+        <div class = "social_div">
+            <img src ="imges\icons\icons8-facebook-neu-48.png"  width= "50" height ="50" />
+           <img src ="imges\icons\icons8-gmail-48.png"  width= "50" height ="50" />
+           <img src ="imges\icons\icons8-twitter-48.png"  width= "50" height ="50" />
+           
+           <img src ="imges\icons\icons8-whatsapp-48.png"  width= "50" height ="50" />
+           <img src ="imges\icons\icons8-yahoo-48.png"  width= "50" height ="50" />
+        </div>
+    
+    <!--  end of footer -->
+    </div>
+ 
+   
+</body>
+
+</html>

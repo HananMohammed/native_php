@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Acessories&glasses Store</title>
+    <link rel="stylesheet" text="html/css" href="css/index_style.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script src="js/script.js"></script><script src="js/jquery-3.4.1.js"></script>   
+ <script src="js/jquery-3.4.1.min.js"></script> 
+ <script src = 'js/plugin.js'></script>
+    <meta name="view-port" content="width=device-width,initial-scale=1"/>
+    <meta property="og:url"           content="https://www.your-domain.com/your-page.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Your Website Title" />
+    <meta property="og:description"   content="Your description" />
+    <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" />
+   </head>
+
+<body class="body">
+<!--<script>
+
+function resizeHeader(){
+     const distanceY = window.pageYOffset || document.documentElement.scrollTop,
+     shrinkOn=200, 
+     headrEl = document.getElementById('js-header');
+     if(distanceY>shrinkOn){
+       headearE1.classlist,add('smaller');
+       }
+       else{
+        headearE1.classlist,remove('smaller');
+       }
+       window.addEventListener('scroll' , resizeHeader );
+     }
+ 
+</script>-->
+
+
+<!-- drop down style-->
+<style>
+  /*container*/
+  .dropdown{
+    position:relative;
+  }
+
+.dropmenu{
+display:none;position:absolute;
+z-index: 1; 
+
+}
+.dropmenu a{
+  display:block;text-decoration: none;color: cornsilk;padding:2px;font-size: 17px;
+}
+.dropdown:hover .dropmenu {
+display: block;
+margin-top:40px;margin-left:10%;
+}
+
+.dropmenu a{
+  background-color: rgb(48, 35, 48); opacity: .8; margin-top:5px;
+}
+</style>
+
+<!-- end of drop down style-->
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v4.0"></script>
+  <div class = "main-div" >
+    <!--start of header div logo & nav --> 
+  <div class = "header" >
+    
+  
+    <img src ="imges\photo2.jpg" id ="head" />
+    <ul id="header">
+               <li> <a href ="index.html" > Home</a></li>
+
+               <div class="dropdown">
+               <li>  <a href="#">login </a></li>
+                 <div class="dropmenu">
+                   <a href ="supplier_pages/supplier_login" >Supplier</a> 
+                   <a href ="customer/login" > Customer </a>
+                 </div>
+                </div>
+                <div class="dropdown">
+                    <li>  <a href="#" >signUp </a></li>
+                    <div class="dropmenu" id="dropmenu" style="margin-left: 21%;">
+                <a href ="supplier_pages/supplier_sign_up" >Supplier</a> 
+                <a href ="customer/signup" > Customer </a>
+              </div>
+            </div>
+               <li> <a href ="profil.html" > Profil </a></li>
+               <li> <a href ="all_products.html" >products </a> </li>
+               <li> <a href ="contact_us.html" >  contact_us </a></li>
+               <li id="Demo"></li>
+
+    </ul>
+   
+</div>
+<img src="imges/drop.PNG" id="drop"/>
+
+<!--end of header div   -->
+    <div id="myWork">
+      <div class="bracket1" ><img src="imges/back.png"/></div>
+       <div class="Store"> 
+           
+           <img name="slide" id="slide"/>
+           <!--<a href="../Acessories & Glasses Store/index.html/"target="_blank"><img src="imges/Acc.PNG"/></a>-->
+          </div>
+      <div class="bracket2"><img src="imges/next.png"/></div>
+  </div>
+  <script>
+    AOS.init();
+  </script>
+     <!--  start for main section head -->
+    <div class = "main-section">  
+         <ul>
+          <li> 
+                <div class ="item"data-aos="fade-up-right">
+                    <img src="imges\photo3.png" />   <div class="space"></div>
+                 
+                    <h4>item name >> $$$$$ </h4>
+                    <p>product  code & price </p>
+                    <div class="space"></div>
+                    
+                  <button class="btn_pay"> details </button>
+                  <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                </div>
+             </li>
+               
+            
+             <li>
+                <div class ="item"data-aos="fade-up-left">
+                    <img src=  "imges\photo5.png"/>   <div class="space"></div>
+                 
+                    <h4>item name >> $$$$$ </h4>
+                    <p>product  code & price </p>
+                    <div class="space"></div>
+                  <button class="btn_pay"> details </button>
+                  <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                </div>  
+                 
+                 
+                </li> 
+               
+                  <li>
+                      <div class ="item" data-aos="fade-up-right">
+                          <img src=  "imges\photo7.jpg"/>   <div class="space"></div>
+                       
+                          <h4>item name >> $$$$$ </h4>
+            <p>product  code & price </p>
+                          <div class="space"></div>
+                        <button class="btn_pay"> details </button>
+                        <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                      </div> 
+                     
+                    </li> 
+                  
+      </ul> 
+
+      <ul>
+            
+         
+        <li>
+         <div class ="item"data-aos="fade-up-left">
+           <img src=  "imges\photo11.jpg"/>   <div class="space"></div>
+           <h4>item name >> $$$$$ </h4>
+           <p>product  code & price </p>
+           <div class="space"></div>
+         <button class="btn_pay"> details </button>
+         <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+       </div>    
+        </li>
+        
+          <li>
+                                  
+         <div class ="item"data-aos="fade-up-left">
+           <img src=  "imges\photo13.png"/>   <div class="space"></div>
+           <h4>item name >> $$$$$ </h4>
+           <p>product  code & price </p>
+           <div class="space"></div>
+         <button class="btn_pay"> details </button>
+         <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+       </div> 
+          
+           
+          </li>
+        
+        <li>
+         <div class ="item"data-aos="fade-up-left">
+           <img src=  "imges\photo15.jpg"/>   <div class="space"></div>
+        
+           <h4>item name >> $$$$$ </h4>
+           <p>product  code & price </p>
+           <div class="space"></div>
+         <button class="btn_pay"> details </button>     
+             
+         <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+         
+        </li>
+       
+     </ul>
+     <ul>
+      <li>
+        <div class ="item"data-aos="fade-down-right">
+          <img src=  "imges\ph22.jpg"/>   <div class="space"></div>
+          <h4>item name >> $$$$$ </h4>
+          <p>product  code & price </p>
+          <div class="space"></div> <button class="btn_pay"> details </button>
+          <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+         </div>       
+            
+           
+          
+         </li>
+         <li>
+          <div class ="item" data-aos="fade-down-left">
+            <img src=  "imges\ph23.jpg"/>   <div class="space"></div>
+            <h4>item name >> $$$$$ </h4>
+            <p>product  code & price </p>
+            <div class="space"></div> <button class="btn_pay"> details </button>
+            <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+           </div>  
+            
+            
+           </li>
+           <li>
+                 
+            <div class ="item" data-aos="flip-left">
+              <img src=  "imges\ph24.jpg"/>   <div class="space"></div>
+              <h4>item name >> $$$$$ </h4>
+              <p>product  code & price </p>
+              <div class="space"></div> <button class="btn_pay"> details </button>
+              <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+             </div>  
+              
+              
+             </li>
+     </ul>
+
+            
+        
+     
+       
+           </div>
+
+
+        <!-- end  of main  section part --> 
+    
+
+
+        <div class="footer"> 
+    
+
+            <p> &copy All right reserved to Egyptian home made company 2019</p>
+              <div class = "social_div">
+                 <a href="https://www.facebook.com/hanan.mohamed2468"><img src ="imges\icons\icons8-facebook-neu-48.png"  width= "50" height ="50" /></a> 
+                 <a href=""><img src ="imges\icons\icons8-gmail-48.png"  width= "50" height ="50" /></a> 
+                 <a href=""> <img src ="imges\icons\icons8-twitter-48.png"  width= "50" height ="50" /></a> 
+                 
+                 <a href="https://web.whatsapp.com/"> <img src ="imges\icons\icons8-whatsapp-48.png"  width= "50" height ="50" /></a> 
+                 <a href="">  <img src ="imges\icons\icons8-yahoo-48.png"  width= "50" height ="50" /></a> 
+              </div>
+                <!--  end of footer -->
+        </div>
+  
+  <!-- end  of main  div part -->
+    </div >
+   
+</body>
+
+</html>

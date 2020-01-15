@@ -1,0 +1,243 @@
+body{
+    width:100%;
+    height: 100%;
+    background-color:rgb(245, 242, 248);
+    margin: 0%;
+  }
+  #drop{display:none;}
+
+  .main-div{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+  }
+  .header{
+    width: 100%;
+    height: 60px;
+    background-color:rgb(81, 53, 107);
+    color: white;
+    scroll-margin-right: 100px;
+    margin-bottom: 20px;
+    margin-right: 10%;
+    /*  position:sticky;
+    top:0; */
+   
+  }
+  /*
+  header .smaller {
+    height:100px;
+  }
+  image .smaller img#logo{
+width:150px; height : 60px;
+  }*/
+  .header img {
+         width:100px;
+         height: 60px;
+         alt :"logo img";
+  }
+  .header ul {
+    width: 60%;
+    height: 50px;
+    list-style-type: none;
+    float: right ;
+  }
+   li a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 20px
+    
+  }
+  li a:hover {
+    background-color:black;
+    color: aliceblue;
+  }
+  
+.space{
+    width:100%;
+    height: 30px;
+  }
+
+  .main-section ul{
+    width:100%;
+    list-style-type: none;
+    margin-left: 2%;
+   margin-top:10%;
+   float:right;
+   
+}
+.main-section ul li{
+  text-decoration: none;
+  float:left;
+  margin-right: 10%;
+}
+.main-section ul li .item img{
+    width:300px;
+    height: 200px;
+     
+    alt:"product pic";
+    box-shadow: 10px -10px 5px rgb(194, 183, 206);
+
+  border-radius:15px; 
+       
+}
+.main-section ul li .item{
+  width: 300px;
+  height: 250px;
+  margin-left: 10%;
+  
+}
+.main-section  ul li .item h4{
+  float: left;
+  color:  rgb(81, 53, 107);
+  width:100%;
+  font-style: italic;
+  }
+  .main-section ul  p{
+  float: left;
+  color:  rgb(81, 53, 107);
+  font-style: italic;
+  }
+
+   
+  .btn_pay{
+      text-align: center;
+      width: 70px;
+      height: 30px;
+      border-radius: 15px;
+      margin-left: 25%;
+      
+      background-color: rgb(54, 19, 87);
+      color: white;
+      border: 2px solid black;
+      box-shadow: 10px -10px 5px rgb(194, 183, 206);
+       
+  }
+ 
+  .footer{
+    background-color: rgb(81, 53, 107);
+     text-align: center;
+     margin-top: 200%;
+  }
+.footer p{
+    
+    color: white;
+    size: 120px;
+    font: italic bold;
+  }
+  .footer .social_div img{
+   width:30px;
+   height: 20px;
+   padding-left: 10 px;
+   
+  
+  }
+   /****************************************Sliding img*******************************************************/
+  
+#myWork{
+  width:100%;height:500px; float:left;padding:0;
+}
+.bracket1{
+float: left;margin-left: 5%; width:7%;height: 40px;margin-top:150px;
+}
+.bracket2{
+  float: right; margin-right : 10%;width:7%;height: 40px;  margin-top:-300px;
+
+}
+.bracket1 img , .bracket2 img{
+  width:70px;height:70px;
+}
+
+.Store{ margin-left: 15%; width:60%; margin-top:50px;}
+.Store img{
+  width:100%;
+  height:400px;border:2px solid black;border-radius: 15px;box-shadow: 10px -10px 15px rgb(198, 201, 206);
+}
+  #Demo{
+    margin-top: 10px;text-align:center;
+  }
+  @media only screen and (min-width:60px) and (max-width :900px){
+  .header img{
+      width:100%;
+      height: 600px;z-index: 1;display: block;
+ }
+  
+#drop {
+  width:40px ;height: 40px;  display:block;z-index: 2;margin-top:-70px;margin-left:90%;
+}
+.header ul {
+ width: 100%;
+ height: 50px;
+ list-style-type: none;
+
+}
+#header{
+  display: none;
+}
+li a{
+  width: 100%;
+  color: white;
+ text-decoration: none;
+ background-color:rgb(81, 53, 107);
+ text-align: center;
+ margin-top: 10px;
+}
+#Demo{
+   color:rgb(81, 53, 107);
+}
+.main-section ul li{
+  width:100%;
+   margin-top:250px;
+
+}
+.main-section ul li .item img{
+  width:80%;
+  height: 300px;
+  margin-left:10px;
+   }
+.main-section ul li .item{
+width: 100%;
+height: 30px;
+margin-left:10px;
+
+}
+
+ 
+.btn_pay{
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 45%;
+   
+}
+.footer{
+  background-color: rgb(81, 53, 107);
+   text-align: center;
+   margin-top:8000px;
+  }
+
+  #myWork{
+    margin-top:500px;
+  }
+  .bracket1{
+    margin-top:180px;
+  }
+  .bracket2{
+  margin-top:-180px;
+  }
+  
+  .bracket1 img , .bracket2 img{
+  width:40px;height:40px;
+  }
+  
+  .Store img{
+    height:300px;margin-left: 15px;
+  }
+  .main-section ul{
+    margin-top:-200px;
+  } 
+  }
+
+   
